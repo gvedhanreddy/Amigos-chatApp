@@ -1,0 +1,69 @@
+/*Adding style for the Message out box*/
+.messages-output {
+    height: 80vh;
+    border: 1px solid lightgray;
+    overflow-y: scroll;
+    margin-bottom: 20px;
+}
+
+/*Adding style to the tying message box */
+.message-inner {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    min-width: 200px;
+    max-width: 90%;
+    text-align: left;
+    min-height: 80px;
+    font: 400 1em,sans-serif;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #d1e7dd;
+}
+
+/*Adding style for the incoming message  with background color*/
+.incoming-message .message-inner {
+    background-color: #ffdab9;
+}
+/*Adding style for the incoming message*/
+.incoming-message {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+/*Adding style for the message timestamp */
+.message-timestamp-left {
+    font-size: 0.85em;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+/*Adding style for the message sender details */
+.message-sender {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+/*Adding style for the message date indicator */
+.message-date-indicator {
+    width: 150px;
+    margin: 0 auto;
+}
+/*Adding style for the conversation*/
+.conversation-info {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    height: 100px;
+}
+
+/*Adding style for the conversation profile pic size and shape */
+.conversation-profile-pic {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin: 10px auto;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+}

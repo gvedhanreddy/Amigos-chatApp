@@ -1,0 +1,33 @@
+/*Adding style for the member status image */
+.member-status-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/*Adding style for the message status */
+.member-status {
+    margin-bottom: 0;
+    position: relative;
+}
+
+/*Adding style for the online status */
+.sidebar-online-status {
+    color: green;
+}
+
+/*Adding style for the offline status */
+.sidebar-offline-status {
+    color: #e3b505;
+}
+
+/*Adding style for the status of the user */
+.sidebar-offline-status,
+.sidebar-online-status {
+    font-size: 11px;
+    position: absolute;
+    z-index: 99;
+    bottom: 0;
+    left: 12px;
+}

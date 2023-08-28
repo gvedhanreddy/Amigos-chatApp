@@ -1,0 +1,130 @@
+{
+	"info": {
+		"_postman_id": "b01769aa-3222-4ec4-9ebd-b7606a7246fa",
+		"name": "ChatApp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "email",
+							"value": "sunny@gmail.com",
+							"type": "default"
+						},
+						{
+							"key": "name",
+							"value": "User2",
+							"type": "default",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "password",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5001/Users/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"Users",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "email",
+							"value": "user2@example.com",
+							"type": "default"
+						},
+						{
+							"key": "name",
+							"value": "User2",
+							"type": "default",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "password",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5001/Users/636843759099733c688c140c",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"Users",
+						"636843759099733c688c140c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addusers",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "email",
+							"value": "peter@gmail.com",
+							"type": "default"
+						},
+						{
+							"key": "name",
+							"value": "Peter",
+							"type": "default"
+						},
+						{
+							"key": "password",
+							"value": "password",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5001/Users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"Users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,18 @@
+/* Providing the image url and the styling for the Home page*/
+
+.home__bg {
+    background-image: url(https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
+
+   /**background-image: url(https://www.kindpng.com/picc/m/34-349854_whatsapp-chat-icon-hd-png-download.png);**/
+    height: 92vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+/*Also providing styling for the Home page icon*/
+.home-message-icon {
+    margin-left: 10px;
+    display: inline-block;
+}

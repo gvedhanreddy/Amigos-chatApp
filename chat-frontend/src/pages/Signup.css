@@ -1,0 +1,37 @@
+/* Providing the image url and the styling for the Signup page*/
+
+.signup__bg {
+    background-image: url(https://images.unsplash.com/photo-1619016984222-c074da4e7deb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY1ODI3NDkxNw&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080);
+    height: 92vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+/* For styling for the signup profile pic container*/
+.signup-profile-pic__container {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.signup-profile-pic {
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    object-fit: cover;
+    height: 100px;
+}
+
+/* For styling for the upload cursor*/
+.add-picture-icon {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    color: darkblue;
+    background: white;
+    cursor: pointer;
+    z-index: 99;
+}
